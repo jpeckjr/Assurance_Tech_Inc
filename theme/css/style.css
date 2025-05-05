@@ -1,23 +1,7 @@
 /**
  * WEBSITE: https://themefisher.com
  * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
- */
 
-/*!
-THEME: Constra - Construction Html5 Template
-VERSION: 1.0.0
-AUTHOR: Themefisher
-
-HOMEPAGE: https://themefisher.com/products/constra-construction-template/
-DEMO: https://demo.themefisher.com/constra/
-GITHUB: https://github.com/themefisher/Constra-Bootstrap-Construction-Template
-
-WEBSITE: https://themefisher.com
-TWITTER: https://twitter.com/themefisher
-FACEBOOK: https://www.facebook.com/themefisher
-*/
 @import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,600i,700,700i,800|Open+Sans:400,400i,600,600i,700,700i,800&display=swap);
 /* Typography
 ================================================== */
@@ -223,7 +207,7 @@ a:focus {
 }
 
 .bg-overlay:after {
-  background-color: rgba(0, 46, 91, 0.8);
+  background-color: #007FFF;
   z-index: 0;
   position: absolute;
   content: "";
@@ -238,7 +222,7 @@ a:focus {
 }
 
 .bg-overlay:after {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #007FFF;
   z-index: 0;
   position: absolute;
   content: "";
@@ -298,7 +282,7 @@ a:focus {
 
 .section-sub-title {
   font-weight: 900;
-  font-size: 36px;
+  font-size: 56px;
   line-height: 46px;
   margin: 0 0 60px;
   color: #212121;
@@ -1252,7 +1236,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   font-size: 30px;
   line-height: 36px;
   font-weight: 300;
-  color: #00006f;
+  color: #ceac02;
   margin: 20px 0 10px;
 }
 @media (max-width: 991px) {
@@ -2358,7 +2342,7 @@ img.testimonial-thumb {
 /*- Footer common */
 .footer {
   background-color: #0d0d0d;
-  color: #999;
+  color: #fff;
 }
 
 .footer-main {
@@ -2403,7 +2387,7 @@ img.testimonial-thumb {
 .footer-social ul li a i {
   display: block;
   font-size: 16px;
-  color: #999;
+  color: #fff;
   transition: 400ms;
   padding: 10px 13px;
 }
@@ -2423,7 +2407,7 @@ img.testimonial-thumb {
 
 .footer-widget ul.list-arrow li a,
 .footer-widget ul.list-arrow li:before {
-  color: #747474;
+  color: #fff;
 }
 
 .footer-widget ul.list-arrow li:hover a,
