@@ -318,7 +318,7 @@
         <h3 class="column-title">We would love to hear from you!</h3>
         <!-- contact form works with formspree.io  -->
         <!-- contact form activation doc: https://docs.themefisher.com/constra/contact-form/ -->
-        <form id="contact-form" action="#" method="post" role="form">
+        <form id="contact-form" action="sendmail.php" method="post" role="form">
           <div class="error-container"></div>
           <div class="row">
             <div class="col-md-4">
@@ -448,7 +448,14 @@
 
   <!-- Javascript Files
   ================================================== -->
-
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("success") === "true") {
+      alert("Thank you! Your message was sent.");
+    } else if (params.get("success") === "false") {
+      alert("Oops! Something went wrong. Please try again.");
+    }
+  </script>
   <!-- initialize jQuery Library -->
   <script src="plugins/jQuery/jquery.min.js"></script>
   <!-- Bootstrap jQuery -->
